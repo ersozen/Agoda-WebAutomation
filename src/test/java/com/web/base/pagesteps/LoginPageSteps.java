@@ -7,7 +7,7 @@ public class LoginPageSteps {
 
     LoginPage loginPage=new LoginPage();
 
-    @Step("Kullanıcı bilgileri doldurulur.")
+    @Step("Kullanıcı bilgilerini doldurulur.")
     public void fillLoginFormSteps(){
         loginPage.fillLoginForm();
     }
